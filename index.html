@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List Application</title>
+    <link rel="stylesheet" href="./main.css">
+    <script defer src="./script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid-container">
+        <h1 class="title">Stuff I need to do</h1>
+        <div class="lists">
+            <h2 class="lists-title">My lists</h2>
+            <ul class="all-lists">
+
+            </ul>
+            <form class="add-list">
+                <input type="text" class="add-list-input add-input" placeholder="new list name">
+                <button type="submit" class="btn add-btn" id="add-list-btn">+</button>
+            </form>
+        </div>
+        <div class="todo-list" id="display-container">
+            <div class="list-header">
+                <h2 id="selected-list-title">YouTube</h2>
+                <p class="task-count" id="tasks-count-element">3 tasks remaining</p>
+            </div>
+            <div class="list-body">
+                <div class="list-tasks" id="tasks">
+
+                </div>
+                <form class="add-task">
+                    <input type="text" class="add-task-input add-input" placeholder="new task name" />
+                    <button type="submit" class="btn add-btn" id="add-task-button">+</button>
+                </form>
+            </div>
+            <div class="list-delete">
+                <button class="btn" id="clear-completed-tasks-btn">Clear completed tasks</button>
+                <button class="btn" id="delete-list-btn">Delete list</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
