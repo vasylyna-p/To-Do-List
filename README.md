@@ -2,6 +2,8 @@
 
 ### This project is a simple To Do List application created using HTML, CSS, and JavaScript. It allows users to create multiple lists, add tasks to a selected list, mark tasks as completed, and delete lists and tasks. 
 
+The application can be accessed at https://vasylyna-p.github.io/To-Do-List/
+
 ## Features 
 
 * Ability to create multiple lists
